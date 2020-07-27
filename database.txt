@@ -1,0 +1,8 @@
+CREATE TABLE 'galery'{
+  'id_foto' int(11) NOT NULL  AUTO_INCREMENT,
+  'nama_foto' varchar(50) COLLATE utf8_unicode_ci NOT NULL,
+  'foto' varchar(100) COLLATE utf8_unicode_ci NOT NULL,
+  'keterangan' varchar(100) COLLATE utf8_unicode_ci NOT NULL,
+  'tanggal_upload' datetime NOT NULL
+  PRIMARY KEY ('id_foto')
+}   ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
